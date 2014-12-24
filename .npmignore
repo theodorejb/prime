@@ -1,0 +1,6 @@
+.tscache/
+test/
+ts_definitions/
+Gruntfile.js
+*.ts
+!*.d.ts

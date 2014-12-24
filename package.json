@@ -1,0 +1,36 @@
+{
+    "name": "prime",
+    "version": "0.0.1",
+    "description": "Easily find and calculate prime numbers",
+    "author": {
+        "name": "Theodore Brown",
+        "email": "theodorejb@outlook.com",
+        "url": "http://theodorejb.me/"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/theodorejb/prime",
+    "bugs": {
+        "url": "https://github.com/theodorejb/prime/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theodorejb/prime.git"
+    },
+    "keywords": [
+        "calculate",
+        "prime",
+        "math"
+    ],
+    "devDependencies": {
+        "typescript": "1.3.0",
+        "grunt": "~0.4.5",
+        "grunt-ts": "^2.0.1",
+        "grunt-browserify": "^3.2.1",
+        "mocha": "^2.0.1"
+    },
+    "scripts": {
+        "prepublish": "grunt pub",
+        "test": "mocha"
+    },
+    "main": "./lib/prime"
+}
