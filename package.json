@@ -1,6 +1,6 @@
 {
   "name": "@theodorejb/prime",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Easily find and calculate prime numbers",
   "author": {
     "name": "Theodore Brown",
@@ -8,7 +8,6 @@
     "url": "http://theodorejb.me/"
   },
   "license": "MIT",
-  "private": true,
   "homepage": "https://github.com/theodorejb/prime",
   "bugs": {
     "url": "https://github.com/theodorejb/prime/issues"
