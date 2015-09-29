@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true
+  },
+  "files": [
+    "lib/prime.ts",
+    "test/primeTest.ts",
+    "typings/mocha.d.ts",
+    "typings/node.d.ts"
+  ]
+}

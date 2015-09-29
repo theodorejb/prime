@@ -1,8 +1,5 @@
-/// <reference path="../ts_definitions/node.d.ts" />
-/// <reference path="../ts_definitions/mocha.d.ts" />
-
-import prime = require('../lib/prime');
-import assert = require('assert');
+import * as prime from '../lib/prime';
+import * as assert from 'assert';
 
 describe('isPrime', function () {
     it('should work with prime numbers', function () {
